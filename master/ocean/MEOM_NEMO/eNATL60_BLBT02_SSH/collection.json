@@ -1,1 +1,36 @@
-{"stac_version": "0.9.0", "stac_extensions": [], "id": "eNATL60_BLBT02_SSH", "title": "Hourly outputs of eNATL60-BLBT02 (with tides) Sea Surface Height", "description": "", "keywords": [], "license": "proprietary", "providers": [], "extent": {"spatial": {"bbox": [[]]}, "temporal": {"interval": [[]]}}, "links": [{"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json", "rel": "root"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/MEOM_NEMO/catalog.json", "rel": "parent"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/MEOM_NEMO/eNATL60_BLBT02_SSH/catalog.json", "rel": "self"}]}
+{
+    "stac_version": "0.9.0",
+    "stac_extensions": [],
+    "id": "eNATL60_BLBT02_SSH",
+    "title": "Hourly outputs of eNATL60-BLBT02 (with tides) Sea Surface Height",
+    "description": "",
+    "keywords": [],
+    "license": "proprietary",
+    "providers": [],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                []
+            ]
+        },
+        "temporal": {
+            "interval": [
+                []
+            ]
+        }
+    },
+    "links": [
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+            "rel": "root"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/MEOM_NEMO/catalog.json",
+            "rel": "parent"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/MEOM_NEMO/eNATL60_BLBT02_SSH/catalog.json",
+            "rel": "self"
+        }
+    ]
+}

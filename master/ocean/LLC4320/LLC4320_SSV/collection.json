@@ -1,1 +1,36 @@
-{"stac_version": "0.9.0", "stac_extensions": [], "id": "LLC4320_SSV", "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Meridional Velocity", "description": "", "keywords": [], "license": "proprietary", "providers": [], "extent": {"spatial": {"bbox": [[]]}, "temporal": {"interval": [[]]}}, "links": [{"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json", "rel": "root"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/catalog.json", "rel": "parent"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSV/catalog.json", "rel": "self"}]}
+{
+    "stac_version": "0.9.0",
+    "stac_extensions": [],
+    "id": "LLC4320_SSV",
+    "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Meridional Velocity",
+    "description": "",
+    "keywords": [],
+    "license": "proprietary",
+    "providers": [],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                []
+            ]
+        },
+        "temporal": {
+            "interval": [
+                []
+            ]
+        }
+    },
+    "links": [
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+            "rel": "root"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/catalog.json",
+            "rel": "parent"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSV/catalog.json",
+            "rel": "self"
+        }
+    ]
+}

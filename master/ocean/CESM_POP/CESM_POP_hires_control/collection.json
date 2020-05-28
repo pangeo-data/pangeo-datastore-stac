@@ -1,1 +1,36 @@
-{"stac_version": "0.9.0", "stac_extensions": [], "id": "CESM_POP_hires_control", "title": "NCAR CESM POP model run hybrid_v5_rel04_BC5_ne120_t12_pop62", "description": "", "keywords": [], "license": "proprietary", "providers": [], "extent": {"spatial": {"bbox": [[]]}, "temporal": {"interval": [[]]}}, "links": [{"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json", "rel": "root"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/CESM_POP/catalog.json", "rel": "parent"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/CESM_POP/CESM_POP_hires_control/catalog.json", "rel": "self"}]}
+{
+    "stac_version": "0.9.0",
+    "stac_extensions": [],
+    "id": "CESM_POP_hires_control",
+    "title": "NCAR CESM POP model run hybrid_v5_rel04_BC5_ne120_t12_pop62",
+    "description": "",
+    "keywords": [],
+    "license": "proprietary",
+    "providers": [],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                []
+            ]
+        },
+        "temporal": {
+            "interval": [
+                []
+            ]
+        }
+    },
+    "links": [
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+            "rel": "root"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/CESM_POP/catalog.json",
+            "rel": "parent"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/CESM_POP/CESM_POP_hires_control/catalog.json",
+            "rel": "self"
+        }
+    ]
+}

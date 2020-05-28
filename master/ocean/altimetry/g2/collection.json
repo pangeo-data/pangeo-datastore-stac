@@ -1,1 +1,36 @@
-{"stac_version": "0.9.0", "stac_extensions": [], "id": "g2", "title": "Geosat Follow On Phase Global Ocean Along track CMEMS Sea Surface Height L3 product", "description": "", "keywords": [], "license": "proprietary", "providers": [], "extent": {"spatial": {"bbox": [[]]}, "temporal": {"interval": [[]]}}, "links": [{"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json", "rel": "root"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/altimetry/catalog.json", "rel": "parent"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/altimetry/g2/catalog.json", "rel": "self"}]}
+{
+    "stac_version": "0.9.0",
+    "stac_extensions": [],
+    "id": "g2",
+    "title": "Geosat Follow On Phase Global Ocean Along track CMEMS Sea Surface Height L3 product",
+    "description": "",
+    "keywords": [],
+    "license": "proprietary",
+    "providers": [],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                []
+            ]
+        },
+        "temporal": {
+            "interval": [
+                []
+            ]
+        }
+    },
+    "links": [
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+            "rel": "root"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/altimetry/catalog.json",
+            "rel": "parent"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/altimetry/g2/catalog.json",
+            "rel": "self"
+        }
+    ]
+}

@@ -1,1 +1,36 @@
-{"stac_version": "0.9.0", "stac_extensions": [], "id": "GFDL_CM2_6_one_percent_ocean_budgets", "title": "GFDL CM2.6 climate model one-percent CO2 increase monthly ocean budgets fields", "description": "", "keywords": [], "license": "proprietary", "providers": [], "extent": {"spatial": {"bbox": [[]]}, "temporal": {"interval": [[]]}}, "links": [{"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json", "rel": "root"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/GFDL_CM2_6/catalog.json", "rel": "parent"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/GFDL_CM2_6/GFDL_CM2_6_one_percent_ocean_budgets/catalog.json", "rel": "self"}]}
+{
+    "stac_version": "0.9.0",
+    "stac_extensions": [],
+    "id": "GFDL_CM2_6_one_percent_ocean_budgets",
+    "title": "GFDL CM2.6 climate model one-percent CO2 increase monthly ocean budgets fields",
+    "description": "",
+    "keywords": [],
+    "license": "proprietary",
+    "providers": [],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                []
+            ]
+        },
+        "temporal": {
+            "interval": [
+                []
+            ]
+        }
+    },
+    "links": [
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+            "rel": "root"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/GFDL_CM2_6/catalog.json",
+            "rel": "parent"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/GFDL_CM2_6/GFDL_CM2_6_one_percent_ocean_budgets/catalog.json",
+            "rel": "self"
+        }
+    ]
+}

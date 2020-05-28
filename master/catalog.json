@@ -1,1 +1,36 @@
-{"stac_version": "0.9.0", "id": "master", "title": "Pangeo Master Data Catalog", "description": "", "links": [{"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json", "rel": "root"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json", "rel": "self"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/catalog.json", "rel": "child", "title": "Pangeo Oceanography Dataset Catalog"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/catalog.json", "rel": "child", "title": "Pangeo Atmospheric Science Dataset Catalog"}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/climate/catalog.json", "rel": "child", "title": "Pangeo Climate Dataset Catalog. Include model ensembles such as CMIP6 and LENS."}, {"href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/catalog.json", "rel": "child", "title": "Pangeo Hydrology Dataset Catalog"}]}
+{
+    "stac_version": "0.9.0",
+    "id": "master",
+    "title": "Pangeo Master Data Catalog",
+    "description": "",
+    "links": [
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+            "rel": "root"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+            "rel": "self"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/catalog.json",
+            "rel": "child",
+            "title": "Pangeo Oceanography Dataset Catalog"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/catalog.json",
+            "rel": "child",
+            "title": "Pangeo Atmospheric Science Dataset Catalog"
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/climate/catalog.json",
+            "rel": "child",
+            "title": "Pangeo Climate Dataset Catalog. Include model ensembles such as CMIP6 and LENS."
+        },
+        {
+            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/catalog.json",
+            "rel": "child",
+            "title": "Pangeo Hydrology Dataset Catalog"
+        }
+    ]
+}
