@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "stac_extensions": [],
     "id": "sam_ngaqua_qobs_eqx_3d",
     "title": "3D fields from a near-global Aquaplanet Simulation with the System for Atmospheric Modeling",

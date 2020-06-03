@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "stac_extensions": [],
     "id": "eNATL60_BLBT02_SSU",
     "title": "Hourly outputs of eNATL60-BLBT02 (with tides) Sea Surface Zonal Velocity",

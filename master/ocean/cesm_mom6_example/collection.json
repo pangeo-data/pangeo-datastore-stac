@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "stac_extensions": [],
     "id": "cesm_mom6_example",
     "title": "CESM MOM6 Ocean Model Example Data",
