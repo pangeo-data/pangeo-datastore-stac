@@ -1,4 +1,7 @@
 # Pangeo STAC Catalog
+
+![Validate STAC catalogs](https://github.com/charlesbluca/pangeo-datastore-stac/workflows/Validate%20STAC%20catalogs/badge.svg)
+
 This repository contains a copy of Pangeo's [cloud data catalog](https://github.com/pangeo-data/pangeo-datastore), formatted to follow the [SpatioTemporal Asset Catalog (STAC) specification](https://github.com/radiantearth/stac-spec).
 The root STAC catalog can be found at:
 ```
