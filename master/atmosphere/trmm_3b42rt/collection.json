@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "stac_extensions": [],
     "id": "trmm_3b42rt",
     "title": "Near real time rainfall estimates from NASA's Tropical Rainfall Measuring Mission",

@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "stac_extensions": [],
     "id": "LLC4320_SSU",
     "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Zonal Velocity",

@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "stac_extensions": [],
     "id": "j1n",
     "title": "Jason-1 Interleaved Global Ocean Along track CMEMS Sea Surface Height L3 product",

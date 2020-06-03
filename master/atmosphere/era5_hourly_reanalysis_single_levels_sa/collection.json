@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "stac_extensions": [],
     "id": "era5_hourly_reanalysis_single_levels_sa",
     "title": "ERA5 hourly estimates of variables on single levels",

@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "stac_extensions": [],
     "id": "wrf50_erai",
     "title": "Daily meteorology from 50km WRF simulation forced with ERA-Interim",

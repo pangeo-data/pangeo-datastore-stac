@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "stac_extensions": [],
     "id": "CESM_POP_hires_RCP8_5",
     "title": "NCAR CESM POP model run BRCP85C5CN_ne120_t12_pop62.c13b17.asdphys.001",

@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "stac_extensions": [],
     "id": "run_tracers_restored_zarr",
     "title": "MITgcm output from a wind and thermally driven channel with a ridge at 5km resolution and interior restored tracers\n",

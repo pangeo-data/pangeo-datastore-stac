@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "id": "MEOM_NEMO",
     "title": "NEMO North Atlantic Ocean Model simulations produced at MEOM",
     "description": "",

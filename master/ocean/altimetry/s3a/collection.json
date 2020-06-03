@@ -1,5 +1,5 @@
 {
-    "stac_version": "0.9.0",
+    "stac_version": "1.0.0-beta.1",
     "stac_extensions": [],
     "id": "s3a",
     "title": "Sentinel-3A Global Ocean Along track CMEMS Sea Surface Height L3 product",
