@@ -3,8 +3,12 @@ name: Validate STAC catalogs
 on:
   push:
     branches: [ master ]
+    paths:
+      - 'master/**'
   pull_request:
     branches: [ master ]
+    paths:
+      - 'master/**'
 
 jobs:
   validate:
