@@ -1,50 +1,59 @@
 {
-    "stac_version": "1.0.0-beta.1",
-    "id": "LLC4320",
-    "title": "MITgcm Global LLC4320 Simulations",
-    "description": "",
-    "links": [
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
-            "rel": "root"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/catalog.json",
-            "rel": "parent"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/catalog.json",
-            "rel": "self"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_grid/collection.json",
-            "rel": "child",
-            "title": "MITgcm LLC4320 Ocean Simulation Grid"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SST/collection.json",
-            "rel": "child",
-            "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Temperature"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSS/collection.json",
-            "rel": "child",
-            "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Salinity"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSH/collection.json",
-            "rel": "child",
-            "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Height"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSU/collection.json",
-            "rel": "child",
-            "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Zonal Velocity"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSV/collection.json",
-            "rel": "child",
-            "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Meridional Velocity"
-        }
-    ]
+  "stac_version": "1.0.0-beta.2",
+  "id": "LLC4320",
+  "title": "MITgcm Global LLC4320 Simulations",
+  "description": "",
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "type": "application/json",
+      "rel": "root"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/catalog.json",
+      "type": "application/json",
+      "rel": "parent"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/catalog.json",
+      "type": "application/json",
+      "rel": "self"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_grid/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "MITgcm LLC4320 Ocean Simulation Grid"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SST/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Temperature"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSS/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Salinity"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSH/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Height"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSU/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Zonal Velocity"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSV/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "MITgcm LLC4320 Ocean Simulation Sea Surface Meridional Velocity"
+    }
+  ]
 }

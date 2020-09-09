@@ -1,36 +1,81 @@
 {
-    "stac_version": "1.0.0-beta.1",
-    "stac_extensions": [],
-    "id": "MITgcm_channel_flatbottom_02km_run01_phys_snap15D",
-    "title": "MITgcm channel simulations with flat bottom at 2km resolution physics field snapshots every 15 days\n",
-    "description": "",
-    "keywords": [],
-    "license": "proprietary",
-    "providers": [],
-    "extent": {
-        "spatial": {
-            "bbox": [
-                []
-            ]
-        },
-        "temporal": {
-            "interval": [
-                []
-            ]
-        }
+  "stac_version": "1.0.0-beta.2",
+  "stac_extensions": [
+    "collection-assets"
+  ],
+  "id": "MITgcm_channel_flatbottom_02km_run01_phys_snap15D",
+  "title": "MITgcm channel simulations with flat bottom at 2km resolution physics field snapshots every 15 days\n",
+  "description": "",
+  "keywords": [],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        []
+      ]
     },
-    "links": [
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
-            "rel": "root"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/catalog.json",
-            "rel": "parent"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/MITgcm_channel_flatbottom_02km_run01_phys_snap15D/catalog.json",
-            "rel": "self"
-        }
-    ]
+    "temporal": {
+      "interval": [
+        []
+      ]
+    }
+  },
+  "providers": [
+    {
+      "name": " World Climate Research Programme",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6"
+    },
+    {
+      "name": "Pangeo",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://pangeo.io/"
+    },
+    {
+      "name": "Google",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloud.google.com/storage"
+    }
+  ],
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "type": "application/json",
+      "rel": "root"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/catalog.json",
+      "type": "application/json",
+      "rel": "parent"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/MITgcm_channel_flatbottom_02km_run01_phys_snap15D/collection.json",
+      "type": "application/json",
+      "rel": "self"
+    },
+    {
+      "href": "https://pcmdi.llnl.gov/CMIP6/TermsOfUse/TermsOfUse6-1.html",
+      "type": "text/html",
+      "rel": "license",
+      "title": "CMIP6: Terms of Use"
+    }
+  ],
+  "assets": {
+    "zmetadata": {
+      "href": "https://storage.googleapis.com/pangeo-ldeo-mitgcm/snap15d/.zmetadata",
+      "description": "Consolidated metadata file for Zarr store",
+      "type": "application/json",
+      "roles": [
+        "metadata",
+        "zarr-consolidated-metadata"
+      ]
+    }
+  }
 }

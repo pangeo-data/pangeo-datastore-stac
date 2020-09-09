@@ -1,55 +1,65 @@
 {
-    "stac_version": "1.0.0-beta.1",
-    "id": "hydro",
-    "title": "Pangeo Hydrology Dataset Catalog",
-    "description": "",
-    "links": [
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
-            "rel": "root"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
-            "rel": "parent"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/catalog.json",
-            "rel": "self"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/cgiar_pet/collection.json",
-            "rel": "child",
-            "title": "Global potential evapotranspiration from CGIAR-CSI"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/hydrosheds_dir/collection.json",
-            "rel": "child",
-            "title": "Drainage directions at 3-second resolution"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/hydrosheds_acc/collection.json",
-            "rel": "child",
-            "title": "Flow accumulation at 3-second resolution"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/hydrosheds_dem/collection.json",
-            "rel": "child",
-            "title": "Digital Elevation Model (conditioned DEM) at 3-second resolution"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/soil_grids_single_level/collection.json",
-            "rel": "child",
-            "title": "Global gridded soil information in COG format"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/soil_grids_multi_level/collection.json",
-            "rel": "child",
-            "title": "Global gridded soil information in COG format"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/catalog.json",
-            "rel": "child",
-            "title": "Pangeo Camels Dataset Catalog"
-        }
-    ]
+  "stac_version": "1.0.0-beta.2",
+  "id": "hydro",
+  "title": "Pangeo Hydrology Dataset Catalog",
+  "description": "",
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "type": "application/json",
+      "rel": "root"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "type": "application/json",
+      "rel": "parent"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/catalog.json",
+      "type": "application/json",
+      "rel": "self"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/cgiar_pet/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Global potential evapotranspiration from CGIAR-CSI"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/hydrosheds_dir/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Drainage directions at 3-second resolution"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/hydrosheds_acc/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Flow accumulation at 3-second resolution"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/hydrosheds_dem/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Digital Elevation Model (conditioned DEM) at 3-second resolution"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/soil_grids_single_level/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Global gridded soil information in COG format"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/soil_grids_multi_level/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Global gridded soil information in COG format"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/catalog.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Pangeo Camels Dataset Catalog"
+    }
+  ]
 }

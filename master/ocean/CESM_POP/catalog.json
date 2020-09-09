@@ -1,30 +1,35 @@
 {
-    "stac_version": "1.0.0-beta.1",
-    "id": "CESM_POP",
-    "title": "NCAR CESM Global High Resolution Ocean Model Fields",
-    "description": "",
-    "links": [
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
-            "rel": "root"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/catalog.json",
-            "rel": "parent"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/CESM_POP/catalog.json",
-            "rel": "self"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/CESM_POP/CESM_POP_hires_control/collection.json",
-            "rel": "child",
-            "title": "NCAR CESM POP model run hybrid_v5_rel04_BC5_ne120_t12_pop62"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/CESM_POP/CESM_POP_hires_RCP8_5/collection.json",
-            "rel": "child",
-            "title": "NCAR CESM POP model run BRCP85C5CN_ne120_t12_pop62.c13b17.asdphys.001"
-        }
-    ]
+  "stac_version": "1.0.0-beta.2",
+  "id": "CESM_POP",
+  "title": "NCAR CESM Global High Resolution Ocean Model Fields",
+  "description": "",
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "type": "application/json",
+      "rel": "root"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/catalog.json",
+      "type": "application/json",
+      "rel": "parent"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/CESM_POP/catalog.json",
+      "type": "application/json",
+      "rel": "self"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/CESM_POP/CESM_POP_hires_control/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "NCAR CESM POP model run hybrid_v5_rel04_BC5_ne120_t12_pop62"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/CESM_POP/CESM_POP_hires_RCP8_5/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "NCAR CESM POP model run BRCP85C5CN_ne120_t12_pop62.c13b17.asdphys.001"
+    }
+  ]
 }

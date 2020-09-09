@@ -1,36 +1,81 @@
 {
-    "stac_version": "1.0.0-beta.1",
-    "stac_extensions": [],
-    "id": "era5_hourly_reanalysis_single_levels_sa",
-    "title": "ERA5 hourly estimates of variables on single levels",
-    "description": "",
-    "keywords": [],
-    "license": "proprietary",
-    "providers": [],
-    "extent": {
-        "spatial": {
-            "bbox": [
-                []
-            ]
-        },
-        "temporal": {
-            "interval": [
-                []
-            ]
-        }
+  "stac_version": "1.0.0-beta.2",
+  "stac_extensions": [
+    "collection-assets"
+  ],
+  "id": "era5_hourly_reanalysis_single_levels_sa",
+  "title": "ERA5 hourly estimates of variables on single levels",
+  "description": "",
+  "keywords": [],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        []
+      ]
     },
-    "links": [
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
-            "rel": "root"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/catalog.json",
-            "rel": "parent"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/era5_hourly_reanalysis_single_levels_sa/catalog.json",
-            "rel": "self"
-        }
-    ]
+    "temporal": {
+      "interval": [
+        []
+      ]
+    }
+  },
+  "providers": [
+    {
+      "name": " World Climate Research Programme",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6"
+    },
+    {
+      "name": "Pangeo",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://pangeo.io/"
+    },
+    {
+      "name": "Google",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloud.google.com/storage"
+    }
+  ],
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "type": "application/json",
+      "rel": "root"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/catalog.json",
+      "type": "application/json",
+      "rel": "parent"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/era5_hourly_reanalysis_single_levels_sa/collection.json",
+      "type": "application/json",
+      "rel": "self"
+    },
+    {
+      "href": "https://pcmdi.llnl.gov/CMIP6/TermsOfUse/TermsOfUse6-1.html",
+      "type": "text/html",
+      "rel": "license",
+      "title": "CMIP6: Terms of Use"
+    }
+  ],
+  "assets": {
+    "zmetadata": {
+      "href": "https://storage.googleapis.com/pangeo-era5/reanalysis/spatial-analysis/.zmetadata",
+      "description": "Consolidated metadata file for Zarr store",
+      "type": "application/json",
+      "roles": [
+        "metadata",
+        "zarr-consolidated-metadata"
+      ]
+    }
+  }
 }
