@@ -1,55 +1,71 @@
 {
-    "stac_version": "1.0.0-beta.1",
-    "id": "atmosphere",
-    "title": "Pangeo Atmospheric Science Dataset Catalog",
-    "description": "",
-    "links": [
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
-            "rel": "root"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
-            "rel": "parent"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/catalog.json",
-            "rel": "self"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/gmet_v1/collection.json",
-            "rel": "child",
-            "title": "Full GMET version 1 (Newman) met ensemble in zarr format"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/trmm_3b42rt/collection.json",
-            "rel": "child",
-            "title": "Near real time rainfall estimates from NASA's Tropical Rainfall Measuring Mission"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/sam_ngaqua_qobs_eqx_3d/collection.json",
-            "rel": "child",
-            "title": "3D fields from a near-global Aquaplanet Simulation with the System for Atmospheric Modeling"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/sam_ngaqua_qobs_eqx_2d/collection.json",
-            "rel": "child",
-            "title": "2D fields from a near-global Aquaplanet Simulation with the System for Atmospheric Modeling"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/gpcp_cdr_daily_v1_3/collection.json",
-            "rel": "child",
-            "title": "3D fields from a near-global Aquaplanet Simulation with the System for Atmospheric Modeling"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/wrf50_erai/collection.json",
-            "rel": "child",
-            "title": "Daily meteorology from 50km WRF simulation forced with ERA-Interim"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/era5_hourly_reanalysis_single_levels_sa/collection.json",
-            "rel": "child",
-            "title": "ERA5 hourly estimates of variables on single levels"
-        }
-    ]
+  "stac_version": "1.0.0-beta.2",
+  "id": "atmosphere",
+  "title": "Pangeo Atmospheric Science Dataset Catalog",
+  "description": "",
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "type": "application/json",
+      "rel": "root"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "type": "application/json",
+      "rel": "parent"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/catalog.json",
+      "type": "application/json",
+      "rel": "self"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/gmet_v1/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Full GMET version 1 (Newman) met ensemble in zarr format"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/trmm_3b42rt/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Near real time rainfall estimates from NASA's Tropical Rainfall Measuring Mission"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/sam_ngaqua_qobs_eqx_3d/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "3D fields from a near-global Aquaplanet Simulation with the System for Atmospheric Modeling"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/sam_ngaqua_qobs_eqx_2d/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "2D fields from a near-global Aquaplanet Simulation with the System for Atmospheric Modeling"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/gpcp_cdr_daily_v1_3/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "3D fields from a near-global Aquaplanet Simulation with the System for Atmospheric Modeling"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/wrf50_erai/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Daily meteorology from 50km WRF simulation forced with ERA-Interim"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/era5_hourly_reanalysis_single_levels_sa/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "ERA5 hourly estimates of variables on single levels"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/nasa_ccmp_wind_vectors/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "gap-free 6-hourly surface wind fields"
+    }
+  ]
 }

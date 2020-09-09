@@ -1,0 +1,81 @@
+{
+  "stac_version": "1.0.0-beta.2",
+  "stac_extensions": [
+    "collection-assets"
+  ],
+  "id": "nasa_ccmp_wind_vectors",
+  "title": "gap-free 6-hourly surface wind fields",
+  "description": "",
+  "keywords": [],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        []
+      ]
+    },
+    "temporal": {
+      "interval": [
+        []
+      ]
+    }
+  },
+  "providers": [
+    {
+      "name": " World Climate Research Programme",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6"
+    },
+    {
+      "name": "Pangeo",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://pangeo.io/"
+    },
+    {
+      "name": "Google",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloud.google.com/storage"
+    }
+  ],
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "type": "application/json",
+      "rel": "root"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/catalog.json",
+      "type": "application/json",
+      "rel": "parent"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/atmosphere/nasa_ccmp_wind_vectors/collection.json",
+      "type": "application/json",
+      "rel": "self"
+    },
+    {
+      "href": "https://pcmdi.llnl.gov/CMIP6/TermsOfUse/TermsOfUse6-1.html",
+      "type": "text/html",
+      "rel": "license",
+      "title": "CMIP6: Terms of Use"
+    }
+  ],
+  "assets": {
+    "zmetadata": {
+      "href": "https://storage.googleapis.com/pangeo-nasa-ccmp/zarr/.zmetadata",
+      "description": "Consolidated metadata file for Zarr store",
+      "type": "application/json",
+      "roles": [
+        "metadata",
+        "zarr-consolidated-metadata"
+      ]
+    }
+  }
+}

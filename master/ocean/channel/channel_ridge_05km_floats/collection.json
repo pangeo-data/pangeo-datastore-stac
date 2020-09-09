@@ -1,0 +1,81 @@
+{
+  "stac_version": "1.0.0-beta.2",
+  "stac_extensions": [
+    "collection-assets"
+  ],
+  "id": "channel_ridge_05km_floats",
+  "title": "MITgcm output from a wind and thermally driven channel with a ridge at 5km resolution (float vars)\n",
+  "description": "",
+  "keywords": [],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        []
+      ]
+    },
+    "temporal": {
+      "interval": [
+        []
+      ]
+    }
+  },
+  "providers": [
+    {
+      "name": " World Climate Research Programme",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6"
+    },
+    {
+      "name": "Pangeo",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://pangeo.io/"
+    },
+    {
+      "name": "Google",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloud.google.com/storage"
+    }
+  ],
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "type": "application/json",
+      "rel": "root"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/catalog.json",
+      "type": "application/json",
+      "rel": "parent"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/channel_ridge_05km_floats/collection.json",
+      "type": "application/json",
+      "rel": "self"
+    },
+    {
+      "href": "https://pcmdi.llnl.gov/CMIP6/TermsOfUse/TermsOfUse6-1.html",
+      "type": "text/html",
+      "rel": "license",
+      "title": "CMIP6: Terms of Use"
+    }
+  ],
+  "assets": {
+    "zmetadata": {
+      "href": "https://storage.googleapis.com/pangeo-ldeo-mitgcm/channel_floats/channel_float_vars/.zmetadata",
+      "description": "Consolidated metadata file for Zarr store",
+      "type": "application/json",
+      "roles": [
+        "metadata",
+        "zarr-consolidated-metadata"
+      ]
+    }
+  }
+}

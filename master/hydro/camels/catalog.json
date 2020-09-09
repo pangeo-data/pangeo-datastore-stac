@@ -1,45 +1,53 @@
 {
-    "stac_version": "1.0.0-beta.1",
-    "id": "camels",
-    "title": "Pangeo Camels Dataset Catalog",
-    "description": "",
-    "links": [
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
-            "rel": "root"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/catalog.json",
-            "rel": "parent"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/catalog.json",
-            "rel": "self"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/basin_mean_forcing_gcp/collection.json",
-            "rel": "child",
-            "title": "Camels Basin Mean Forcing"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/basin_mean_forcing_aws/collection.json",
-            "rel": "child",
-            "title": "Camels Basin Mean Forcing"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/usgs_streamflow_gcp/collection.json",
-            "rel": "child",
-            "title": "Camels USGS Streamflow"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/usgs_streamflow_aws/collection.json",
-            "rel": "child",
-            "title": "Camels USGS Streamflow"
-        },
-        {
-            "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/attributes_aws/collection.json",
-            "rel": "child",
-            "title": "Camels Attributes"
-        }
-    ]
+  "stac_version": "1.0.0-beta.2",
+  "id": "camels",
+  "title": "Pangeo Camels Dataset Catalog",
+  "description": "",
+  "links": [
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "type": "application/json",
+      "rel": "root"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/catalog.json",
+      "type": "application/json",
+      "rel": "parent"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/catalog.json",
+      "type": "application/json",
+      "rel": "self"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/basin_mean_forcing_gcp/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Camels Basin Mean Forcing"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/basin_mean_forcing_aws/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Camels Basin Mean Forcing"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/usgs_streamflow_gcp/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Camels USGS Streamflow"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/usgs_streamflow_aws/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Camels USGS Streamflow"
+    },
+    {
+      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/hydro/camels/attributes_aws/collection.json",
+      "type": "application/json",
+      "rel": "child",
+      "title": "Camels Attributes"
+    }
+  ]
 }
