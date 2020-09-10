@@ -46,17 +46,17 @@
   "license": "proprietary",
   "links": [
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/catalog.json",
       "type": "application/json",
       "rel": "root"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/catalog.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/LLC4320/catalog.json",
       "type": "application/json",
       "rel": "parent"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSH/collection.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/LLC4320/LLC4320_SSH/collection.json",
       "type": "application/json",
       "rel": "self"
     },
