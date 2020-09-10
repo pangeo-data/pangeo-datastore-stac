@@ -5,64 +5,64 @@
   "description": "",
   "links": [
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/catalog.json",
       "type": "application/json",
       "rel": "root"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/catalog.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/catalog.json",
       "type": "application/json",
       "rel": "parent"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/catalog.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/channel/catalog.json",
       "type": "application/json",
       "rel": "self"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/MITgcm_channel_flatbottom_02km_run01_phys-mon/collection.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/channel/MITgcm_channel_flatbottom_02km_run01_phys-mon/collection.json",
       "type": "application/json",
       "rel": "child",
       "title": "MITgcm channel simulations with flat bottom at 2km resolution physics field monthly mean climatology\n"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/MITgcm_channel_flatbottom_02km_run01_phys_snap15D/collection.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/channel/MITgcm_channel_flatbottom_02km_run01_phys_snap15D/collection.json",
       "type": "application/json",
       "rel": "child",
       "title": "MITgcm channel simulations with flat bottom at 2km resolution physics field snapshots every 15 days\n"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/channel_ridge_resolutions_01km/collection.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/channel/channel_ridge_resolutions_01km/collection.json",
       "type": "application/json",
       "rel": "child",
       "title": "MITgcm output from a wind and thermally driven channel with a ridge at 1km resolution, and surface forced tracer\n"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/channel_ridge_resolutions_05km/collection.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/channel/channel_ridge_resolutions_05km/collection.json",
       "type": "application/json",
       "rel": "child",
       "title": "MITgcm output from a wind and thermally driven channel with a ridge at 5km resolution, and surface forced tracer\n"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/channel_ridge_resolutions_20km/collection.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/channel/channel_ridge_resolutions_20km/collection.json",
       "type": "application/json",
       "rel": "child",
       "title": "MITgcm output from a wind and thermally driven channel with a ridge at 20km resolution, and surface forced tracer\n"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/run_tracers_restored_zarr/collection.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/channel/run_tracers_restored_zarr/collection.json",
       "type": "application/json",
       "rel": "child",
       "title": "MITgcm output from a wind and thermally driven channel with a ridge at 5km resolution and interior restored tracers\n"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/channel_ridge_05km_float_run/collection.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/channel/channel_ridge_05km_float_run/collection.json",
       "type": "application/json",
       "rel": "child",
       "title": "MITgcm output from a wind and thermally driven channel with a ridge at 5km resolution (model vars) \n"
     },
     {
-      "href": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/ocean/channel/channel_ridge_05km_floats/collection.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/ocean/channel/channel_ridge_05km_floats/collection.json",
       "type": "application/json",
       "rel": "child",
       "title": "MITgcm output from a wind and thermally driven channel with a ridge at 5km resolution (float vars)\n"
