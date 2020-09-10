@@ -34,7 +34,7 @@ All preexisting intake catalogs correspond to [STAC catalogs](https://github.com
 There is still a lot of work to be done before this catalog can be considered equivalent to the current cloud data catalog.
 In particular:
 
-- [ ] Representing Zarr stores using the [collection-assets extension](https://github.com/radiantearth/stac-spec/tree/master/extensions/collection-assets)
+- [x] Representing Zarr stores using the [collection-assets extension](https://github.com/radiantearth/stac-spec/tree/master/extensions/collection-assets)
 - [ ] Finishing the specifications for the ESM extension to allow ESM collections to be represented
 - [ ] Filling in metadata fields in the catalog/collections with relevant information (such as `description`, `extent`, `providers`, and `license`)
 - [ ] Making sure the catalogs validate using [stac-validator](https://github.com/sparkgeo/stac-validator) in conjunction with continuous integration
