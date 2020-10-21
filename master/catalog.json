@@ -41,7 +41,7 @@
     {
       "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/test/collection.json",
       "type": "application/json",
-      "rel": "child"
+      "rel": "child",
       "title": "Zarr store for stac-browser testing"
     }
   ]
