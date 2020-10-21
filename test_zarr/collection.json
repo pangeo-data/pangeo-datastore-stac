@@ -56,7 +56,7 @@
       "rel": "parent"
     },
     {
-      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/test/collection.json",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/test_zarr/collection.json",
       "type": "application/json",
       "rel": "self"
     },
