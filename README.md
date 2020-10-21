@@ -1,11 +1,11 @@
 # Pangeo STAC Catalog
 
-![Validate STAC catalogs](https://github.com/charlesbluca/pangeo-datastore-stac/workflows/Validate%20STAC%20catalogs/badge.svg)
+![Validate STAC catalogs](https://github.com/pangeo-data/pangeo-datastore-stac/workflows/Validate%20STAC%20catalogs/badge.svg)
 
 This repository contains a copy of Pangeo's [cloud data catalog](https://github.com/pangeo-data/pangeo-datastore), formatted to follow the [SpatioTemporal Asset Catalog (STAC) specification](https://github.com/radiantearth/stac-spec).
 The root STAC catalog can be found at:
 ```
-https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json
+https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/catalog.json
 ```
 Currently the catalogs contain:
 - Consolidated metadata Zarr group/arrays (represented through STAC Collections [with assets](https://github.com/radiantearth/stac-spec/tree/master/extensions/collection-assets))
