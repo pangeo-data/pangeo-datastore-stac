@@ -69,7 +69,7 @@
   ],
   "assets": {
     "zmetadata": {
-      "href": "https://storage.googleapis.com/cmip6/tracmip/Amon/aquaControl/CALTECH/hfss/v20181025/.zmetadata",
+      "href": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/test_nested_zarr/.zmetadata",
       "description": "Consolidated metadata file for Zarr store",
       "type": "application/json",
       "roles": [
