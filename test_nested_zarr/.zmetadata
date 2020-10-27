@@ -1,0 +1,145 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "ace": "test",
+            "bat": "attrs",
+            "card": "for",
+            "dad": "groups/arrays"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "ace/.zattrs": {
+            "ace": "test",
+            "bat": "attrs",
+            "card": "for",
+            "dad": "groups/arrays"
+        },
+        "ace/.zgroup": {
+            "zarr_format": 2
+        },
+        "ace/nested_group/.zattrs": {
+            "ace": "test",
+            "bat": "attrs",
+            "card": "for",
+            "dad": "groups/arrays"
+        },
+        "ace/nested_group/.zgroup": {
+            "zarr_format": 2
+        },
+        "ace/nested_group/doubly_nested_array/.zarray": {
+            "chunks": [
+                10
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": 0.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                100
+            ],
+            "zarr_format": 2
+        },
+        "ace/nested_group/doubly_nested_array/.zattrs": {
+            "ace": "test",
+            "bat": "attrs",
+            "card": "for",
+            "dad": "groups/arrays"
+        },
+        "bat/.zattrs": {
+            "ace": "test",
+            "bat": "attrs",
+            "card": "for",
+            "dad": "groups/arrays"
+        },
+        "bat/.zgroup": {
+            "zarr_format": 2
+        },
+        "bat/nested_array/.zarray": {
+            "chunks": [
+                10
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": 0.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                100
+            ],
+            "zarr_format": 2
+        },
+        "bat/nested_array/.zattrs": {
+            "ace": "test",
+            "bat": "attrs",
+            "card": "for",
+            "dad": "groups/arrays"
+        },
+        "crab/.zarray": {
+            "chunks": [
+                10
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": 0.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                100
+            ],
+            "zarr_format": 2
+        },
+        "crab/.zattrs": {
+            "ace": "test",
+            "bat": "attrs",
+            "card": "for",
+            "dad": "groups/arrays"
+        },
+        "dad/.zarray": {
+            "chunks": [
+                20
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": 0.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                200
+            ],
+            "zarr_format": 2
+        },
+        "dad/.zattrs": {
+            "ace": "test",
+            "bat": "attrs",
+            "card": "for",
+            "dad": "groups/arrays"
+        }
+    },
+    "zarr_consolidated_format": 1
+}
